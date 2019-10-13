@@ -3,3 +3,6 @@
 ################################################################################
 
 /AspNetMvc5Client/.vs
+/AspNetMvc5Client/AspNetMvc5Client/bin
+/AspNetMvc5Client/AspNetMvc5Client/obj/Debug
+/AspNetMvc5Client/packages
