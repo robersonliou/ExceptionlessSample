@@ -18,7 +18,7 @@ namespace AspNetMvc5Client.Controllers
         {
             try
             {
-                new InvalidOperationException("manually throw exception");
+                throw new InvalidOperationException("manually throw exception");
             }
             catch (Exception ex)
             {
