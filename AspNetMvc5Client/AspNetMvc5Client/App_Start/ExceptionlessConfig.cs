@@ -8,9 +8,9 @@ namespace AspNetMvc5Client
         public static void Register()
         {
             var config = ExceptionlessClient.Default.Configuration;
-            //config.ApiKey = "your server api key ";
+            //config.ApiKey = "your server api key";
             //config.ServerUrl = "http://localhost:5000";
-
+            config.IncludePrivateInformation = false;
 
         }
     }
