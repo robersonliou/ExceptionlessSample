@@ -266,6 +266,7 @@
     <Content Include="Views\Exception\Manually.cshtml" />
     <Content Include="Views\Exception\Additional.cshtml" />
     <Content Include="Views\Log\Manually.cshtml" />
+    <Content Include="Views\Log\NLogTest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
