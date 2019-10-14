@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Exceptionless;
 
 namespace AspNetMvc5Client.Controllers
 {
@@ -10,6 +11,7 @@ namespace AspNetMvc5Client.Controllers
     {
         public ActionResult Index()
         {
+            ExceptionlessClient.Default.CreateFeatureUsage("My Home Page").AddTags("mvc5").Submit();
             return View();
         }
 
