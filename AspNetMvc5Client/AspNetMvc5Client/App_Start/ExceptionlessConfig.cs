@@ -1,4 +1,5 @@
-﻿using Exceptionless;
+﻿using AspNetMvc5Client.Plugins;
+using Exceptionless;
 using Exceptionless.Models;
 
 namespace AspNetMvc5Client
@@ -14,7 +15,8 @@ namespace AspNetMvc5Client
             config.UseSessions();
             config.SetVersion("1.2.3");
 
-            AddLogSubmissionPlugin();
+            //AddLogSubmissionPlugin();
+            config.AddPlugin<LogSubmissionPlugin>();
         }
 
         private static void AddLogSubmissionPlugin()
