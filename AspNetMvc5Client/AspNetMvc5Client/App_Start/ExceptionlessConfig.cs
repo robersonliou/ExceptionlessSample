@@ -11,6 +11,7 @@ namespace AspNetMvc5Client
             config.ServerUrl = "http://localhost:5000";
 //            config.IncludePrivateInformation = false;
             config.UseSessions();
+            config.SetVersion("1.2.3");
         }
     }
 }
